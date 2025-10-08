@@ -82,6 +82,7 @@
 
     const gridEl=document.getElementById('grid');
     const bdayEl=document.getElementById('bday');
+    const todayBtn=document.getElementById('todayBtn');
     const weekStat=document.getElementById('weekStat');
     const yearStat=document.getElementById('yearStat');
     const ageStat=document.getElementById('ageStat');
@@ -149,6 +150,9 @@
 
     // Handle birthday input
     bdayEl.addEventListener('input',()=>{ const v=bdayEl.value; const d=parseDate(v); if(!d)return; localStorage.setItem(STORAGE_KEY, v); render(d); });
+
+    // Jump to today: re-render to ensure current cell is in view
+    todayBtn.addEventListener('click',()=>{ const d=parseDate(bdayEl.value); if(!d){ bdayEl.focus(); return; } render(d); });
 
     // Load saved birthday (or use browser autofill) and render on load
     const saved = localStorage.getItem(STORAGE_KEY);
