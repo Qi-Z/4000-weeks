@@ -81,13 +81,13 @@ define(['./workbox-99d8380f'], (function (workbox) { 'use strict';
    * See https://goo.gl/S9QRab
    */
   workbox.precacheAndRoute([{
+    "url": "assets/index-C_JFIQ6V.js",
+    "revision": null
+  }, {
     "url": "assets/index-DLUheNL3.css",
     "revision": null
   }, {
-    "url": "assets/index-DTagAhOd.js",
-    "revision": null
-  }, {
-    "url": "assets/index.es-CLN6t72H.js",
+    "url": "assets/index.es-DMv_kUPg.js",
     "revision": null
   }, {
     "url": "assets/purify.es-aGzT-_H7.js",
@@ -97,13 +97,13 @@ define(['./workbox-99d8380f'], (function (workbox) { 'use strict';
     "revision": null
   }, {
     "url": "icons/icon-192.png",
-    "revision": "9b150bfb285aaabce637fa0d62e9407a"
+    "revision": "616d1d33287fa8534e0935b63cf7fb1c"
   }, {
     "url": "icons/icon-512.png",
-    "revision": "8962bc5b7b7c059d1f8714c822577b62"
+    "revision": "616d1d33287fa8534e0935b63cf7fb1c"
   }, {
     "url": "index.html",
-    "revision": "cb407ede28b0808921d990d680e21710"
+    "revision": "3b83c0d936e22a7dfb89c232bc4d67fc"
   }, {
     "url": "og-image.png",
     "revision": "c2eef055ba6a2b6f82562b83d56a0ab9"
@@ -112,10 +112,10 @@ define(['./workbox-99d8380f'], (function (workbox) { 'use strict';
     "revision": "8e3a10e157f75ada21ab742c022d5430"
   }, {
     "url": "icons/icon-192.png",
-    "revision": "9b150bfb285aaabce637fa0d62e9407a"
+    "revision": "616d1d33287fa8534e0935b63cf7fb1c"
   }, {
     "url": "icons/icon-512.png",
-    "revision": "8962bc5b7b7c059d1f8714c822577b62"
+    "revision": "616d1d33287fa8534e0935b63cf7fb1c"
   }, {
     "url": "manifest.webmanifest",
     "revision": "d88863114091924edab6aef5cf9d7c29"
