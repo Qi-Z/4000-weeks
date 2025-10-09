@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://qi-z.github.io/4000-weeks/sitemap.xml

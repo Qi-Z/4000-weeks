@@ -103,7 +103,10 @@ define(['./workbox-99d8380f'], (function (workbox) { 'use strict';
     "revision": "8962bc5b7b7c059d1f8714c822577b62"
   }, {
     "url": "index.html",
-    "revision": "9ce13819b5d75ca840c38bf20a9b7001"
+    "revision": "cb407ede28b0808921d990d680e21710"
+  }, {
+    "url": "og-image.png",
+    "revision": "c2eef055ba6a2b6f82562b83d56a0ab9"
   }, {
     "url": "vite.svg",
     "revision": "8e3a10e157f75ada21ab742c022d5430"
