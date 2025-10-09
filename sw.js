@@ -108,6 +108,12 @@ define(['./workbox-99d8380f'], (function (workbox) { 'use strict';
     "url": "og-image.png",
     "revision": "c2eef055ba6a2b6f82562b83d56a0ab9"
   }, {
+    "url": "robots.txt",
+    "revision": "11df9fb15a0b9f2d2db5ab92d9be373d"
+  }, {
+    "url": "sitemap.xml",
+    "revision": "b84debb1cebd8cd44cbb24b15b4c8489"
+  }, {
     "url": "vite.svg",
     "revision": "8e3a10e157f75ada21ab742c022d5430"
   }, {
@@ -121,6 +127,8 @@ define(['./workbox-99d8380f'], (function (workbox) { 'use strict';
     "revision": "d88863114091924edab6aef5cf9d7c29"
   }], {});
   workbox.cleanupOutdatedCaches();
-  workbox.registerRoute(new workbox.NavigationRoute(workbox.createHandlerBoundToURL("index.html")));
+  workbox.registerRoute(new workbox.NavigationRoute(workbox.createHandlerBoundToURL("index.html"), {
+    denylist: [/sitemap\.xml$/, /robots\.txt$/]
+  }));
 
 }));
