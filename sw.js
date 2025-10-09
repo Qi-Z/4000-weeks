@@ -81,13 +81,13 @@ define(['./workbox-99d8380f'], (function (workbox) { 'use strict';
    * See https://goo.gl/S9QRab
    */
   workbox.precacheAndRoute([{
-    "url": "assets/index-CdtNdaZE.js",
+    "url": "assets/index-1bZGhoME.js",
     "revision": null
   }, {
     "url": "assets/index-u5mUIfUH.css",
     "revision": null
   }, {
-    "url": "assets/index.es-zyho04vv.js",
+    "url": "assets/index.es-BsQihbVj.js",
     "revision": null
   }, {
     "url": "assets/purify.es-aGzT-_H7.js",
@@ -103,7 +103,7 @@ define(['./workbox-99d8380f'], (function (workbox) { 'use strict';
     "revision": "8962bc5b7b7c059d1f8714c822577b62"
   }, {
     "url": "index.html",
-    "revision": "faea4028e39ed469e6549ca70bc2bf08"
+    "revision": "930f182e85b23fe7afed5ddb69d44768"
   }, {
     "url": "vite.svg",
     "revision": "8e3a10e157f75ada21ab742c022d5430"
@@ -115,7 +115,7 @@ define(['./workbox-99d8380f'], (function (workbox) { 'use strict';
     "revision": "8962bc5b7b7c059d1f8714c822577b62"
   }, {
     "url": "manifest.webmanifest",
-    "revision": "311dea6714e8760c453759d23705f72e"
+    "revision": "d88863114091924edab6aef5cf9d7c29"
   }], {});
   workbox.cleanupOutdatedCaches();
   workbox.registerRoute(new workbox.NavigationRoute(workbox.createHandlerBoundToURL("index.html")));
